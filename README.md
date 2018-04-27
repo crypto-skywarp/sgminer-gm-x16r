@@ -7,9 +7,9 @@ Tested on Fedora 25/27, Ubuntu 16.04.4 LTS.
 
 The .tar.gz file contains the Linux portable binaries ready to run. 
 
-$ tar -xzvf sgminer-gm-x16r-linux-x86-64-v5.5.6.tar.gz \
+$ tar -xzvf sgminer-gm-x16r-linux-x86-64-v5.5.5.tar.gz \
   ^ extract binaries from archive \
-$ cd sgminer-gm-x16r-linux-x86-64-v5.5.6 \
+$ cd sgminer-gm-x16r-linux-x86-64-v5.5.5 \
 $ cp example-config.json config.json \
 $ vim config.json \
   ^ edit the configuration file with algorithm, pool URL, wallet address, etc. \
