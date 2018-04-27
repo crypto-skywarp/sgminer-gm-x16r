@@ -10,7 +10,7 @@ The .tar.gz file contains the Linux portable binaries ready to run.
 $ tar -xzvf sgminer-gm-x16r-linux-x86-64-v5.5.6.tar.gz \
   ^ extract binaries from archive \
 $ cd sgminer-gm-x16r-linux-x86-64-v5.5.6 \
-$ cp example-config.json config.json
+$ cp example-config.json config.json \
 $ vim config.json \
   ^ edit the configuration file with algorithm, pool URL, wallet address, etc. \
 $ sgminer-gm-x16r.sh --config config.json 
